@@ -12,10 +12,10 @@ Use tge following in your .pre-commit-config.yaml file:
   rev: main
   hooks:
     # Select one of the following:
-    - id: go-test-mod
-    - id: go-test-pkg
-    - id: go-test-repo-mod
-    - id: go-test-repo-pkg
+    - id: encore-test-mod
+    - id: encore-test-pkg
+    - id: encore-test-repo-mod
+    - id: encore-test-repo-pkg
 ```
 
 -----------------
